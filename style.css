@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Monoton&family=Noto+Sans:wght@400;700&family=Rubik+Mono+One&family=Share+Tech+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(136,146,176);
+    text-decoration: none;
+}
+body{
+    /* background-color: rgb(26, 25, 25); */
+    background-color: rgb(10,25,47);
+    /* color: rgb(204,214,246); */
+}
+.logo{
+    font-family: 'Monoton', sans-serif;
+    font-size: x-large;
+    /* font-weight: bold; */
+    color: white;
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    /* color: white; */
+    margin: 3px 14px;
+    align-items: center;
+    /* justify-content: center; */
+}
+nav ul li a:hover{
+    color: rgb(98,249,213);
+}
+header{
+    display: flex;
+}
+nav ul {
+    display: flex;
+    margin: 0 700px;
+}
+nav{
+    margin: 31px;
+}
+h1{
+    font-family: 'DM Serif Display';
+    font-family: 'Noto Sans';
+    font-size: 70px;
+    color: rgb(204,214,246);
+}
+.numbers{
+    color: rgb(98,249,213);
+}
+.container{
+    margin: 80px;
+    height: 100vh;
+    max-width: 80%;
+}
+.intro{
+    color: rgb(98,249,213);
+}
+.intro2{
+    color: rgb(136,146,176);
+}
+.content p{
+    font-family: 'Noto Sans';
+}
+.content{
+    max-width: 600px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.btn{
+    display: flex;
+}
+.btn > a{
+    color: rgb(98,249,213);
+    background-color: rgb(10,25,47);
+    border: 2px solid rgb(98,249,213);
+    border-radius: 5px;
+    margin: 10px 10px;
+    margin-bottom: 100px;
+    padding: 12px 18px;
+}
+.icon{
+    margin: 10px 5px;
+}
+h2{
+    color: rgb(204,214,246);
+    margin: 50px;
+    font-size: 35px;
+    font-family: 'Noto Sans';
+}
+p{
+    font-family: 'Noto Sans';
+}
+.aboutme{
+    max-width: 600px;
+    margin: 50px;
+}
+.aboutme ul li{
+    list-style: circle;
+    margin: 10px 20px;
+    color: rgb(98,249,213);
+}
+.aboutme ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 10px; */
+}
