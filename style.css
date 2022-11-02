@@ -79,6 +79,10 @@ h1{
     margin-bottom: 100px;
     padding: 12px 18px;
 }
+.btn > a:hover{
+    color: rgb(98,249,213);
+    background-color: rgb(29, 74, 143);
+}
 .icon{
     margin: 10px 5px;
     transition: 0.3s;
@@ -98,15 +102,23 @@ p{
 }
 .aboutme{
     max-width: 600px;
-    margin: 50px;
+    margin: 100px;
+    margin-bottom: 100px;
 }
 .aboutme ul li{
     list-style: circle;
     margin: 10px 20px;
     color: rgb(98,249,213);
+    display: list-item;
 }
 .aboutme ul{
     display: flex;
     flex-wrap: wrap;
     /* width: 10px; */
 }
+.experience{
+    max-width: 600px;
+    margin: 50px;
+}
+
+
