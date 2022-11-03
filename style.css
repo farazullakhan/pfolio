@@ -11,6 +11,7 @@ body{
     /* background-color: rgb(26, 25, 25); */
     background-color: rgb(10,25,47);
     /* color: rgb(204,214,246); */
+    overflow-x: hidden;
 }
 .logo{
     font-family: 'Monoton', sans-serif;
